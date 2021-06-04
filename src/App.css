@@ -1,0 +1,58 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.App {
+  text-align: center;
+}
+
+
+.container{
+  display: flex;
+}
+
+.left{
+  width: 25%;
+  background-color: blue;
+  min-height: 1000px;
+}
+
+.leftHeader{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.right{
+  width: 75%;
+  background-color: green;
+  min-height: 1000px;
+}
+
+.save{
+  width: 60px;
+  height: 50px;
+  font-size: 20px;
+}
+
+h1{
+  height: 40px;
+}
+
+.text{
+  width: 100%;
+  min-height: 1000px;
+}
+
+.delete{
+  width: 60px;
+  height: 20px;
+  font-size: 15px;
+}
+
+.li-container{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
